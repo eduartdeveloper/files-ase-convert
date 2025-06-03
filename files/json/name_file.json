@@ -1,0 +1,26 @@
+{
+  "version": "1.0",
+  "groups": [],
+  "colors": [
+    {
+      "name": "Vela Aromatizada (10RR 83/009)",
+      "model": "RGB",
+      "color": [
+        0.004,
+        0.004,
+        0.004
+      ],
+      "type": "global"
+    },
+    {
+      "name": "Boneca de Porcelana (04YR 82/010)",
+      "model": "RGB",
+      "color": [
+        0.004,
+        0.004,
+        0.004
+      ],
+      "type": "global"
+    }
+  ]
+}

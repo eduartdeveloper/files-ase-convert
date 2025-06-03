@@ -1,0 +1,18 @@
+{
+    "name": "ase-json-converter",
+    "version": "3.2.0",
+    "description": "Tool to convert .ase files to JSON and back.",
+    "main": "index.js",
+    "scripts": {
+        "encodeAse": "node ase-utils/convertJsonToAse.js",
+        "decodeAse": "node ase-utils/convertAseToJson.js"
+    },
+    "dependencies": {
+        "bytebuffer": "3.5.4"
+    },
+    "author": {
+        "name": "Jose Eduardo Rendon Valencia",
+        "email": "gmail@cjoseeduardo.com.co",
+        "url": "https://joseeduardo.com.co"
+    }
+}
