@@ -9,7 +9,7 @@ const rl = readline.createInterface({
 });
 
 // Pedir nombre del archivo .ase
-rl.question('Enter the name of the ASE file (without extension): ', (aseFileName) => {
+rl.question('📄 Enter the name of the ASE file (without extension): ', (aseFileName) => {
     const asePath = path.join(__dirname, '../files/ase', `${aseFileName}.ase`);
 
     // Verificar si existe
@@ -20,7 +20,7 @@ rl.question('Enter the name of the ASE file (without extension): ', (aseFileName
     }
 
     // Pedir nombre del archivo JSON
-    rl.question('Enter the name of the JSON file to generate (without extension): ', (jsonFileName) => {
+    rl.question('📝 Enter the name of the JSON file to generate (without extension): ', (jsonFileName) => {
         const buffer = fs.readFileSync(asePath);
         const decoded = simplify(ase.decode(buffer));
 
